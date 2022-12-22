@@ -1,0 +1,39 @@
+.restaurants {
+  margin-top: 56px;
+  margin-bottom: 64px;
+}
+
+.restaurant__title {
+  color: #1D1D1D;
+  font-size: 22px;
+  margin-bottom: 26px;
+}
+
+.restaurant__card {
+  margin-bottom: 16px;
+}
+.card-title {
+  color: #1D1D1D;
+  margin-bottom: 13px;
+}
+.card-price {
+  color: #626262;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.card-time {
+  color: #1D1D1D;
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.card-img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.restaurant__card:hover {
+  background-color: #75757518;
+  border-radius: 5px;
+}

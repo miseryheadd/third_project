@@ -1,0 +1,77 @@
+.footer {
+  background-color: #262626;
+}
+
+.footer-logo {
+  margin-top: 56px;
+  margin-bottom: 40px;
+}
+
+.sep_line {
+  color: #979797;
+  size: 1px;
+}
+
+.footer__nav {
+  margin-top: 39px;
+  list-style-type: none;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 48px;
+  padding-left: 0 !important;
+}
+.footer__nav-link {
+  color: #fff;
+  margin-bottom: 23px;
+}
+
+.footer__lang {
+  height: 40px;
+  background-color: #3B3B3B;
+  display: flex;
+  margin-top: 32px;
+  border-radius: 3px;
+}
+
+.lang_form {
+  width: 100%;
+  background-color: #3b3b3b;
+  border: none;
+  color: #fff;
+}
+.lang_form:focus {
+  outline: none;
+}
+
+.icon-world {
+  padding: 10px 10px;
+}
+
+.footer__socials {
+  margin-top: 33px;
+  height: 60px;
+}
+.footer-logo-link {
+  color: #fff;
+  margin-bottom: 17px;
+}
+.icon-facebook, .icon-twitter, .icon-instagram {
+  font-size: 24px;
+}
+
+.footer__download-buttons {
+  padding-top: 42px;
+  padding-bottom: 39px;
+  width: 295px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__privacy-settings {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}

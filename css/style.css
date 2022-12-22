@@ -1,0 +1,61 @@
+@import url(../img/icons/style.css);
+@import url(components/header.css);
+@import url(components/search_section.css);
+@import url(components/restaurants_section.css);
+@import url(components/footer.css);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+  background-color: #F2F2F2;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+a:hover {
+  opacity: 0.8;
+}
+.container-fluid {
+  padding: 0 40px !important;
+}
+@media (max-width: 991px) {
+  .container-fluid {
+    padding: 0 8px !important;
+  }
+  .search {
+    margin-top: 40px;
+  }
+  .restaurants {
+    margin-top: 30px;
+  }
+}
+
+.back-to-top {
+  position: fixed;
+  right: 16px;
+  bottom: 24px;
+  width: 80px;
+  height: 80px;
+  background-color: #59BD5A;
+  border-radius: 5px;
+  display: none;
+}
+.back-to-top:hover, .back-to-top:focus {
+  filter: brightness(1.15);
+  opacity: 1 !important;
+}
+.back-to-top::before, .back-to-top::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../img/arrow.svg);
+  width: 15px;
+  height: 25px;
+}
